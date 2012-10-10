@@ -1,0 +1,67 @@
+<?php
+	// Day 5 Homework - Exercise 3
+	// Write a short program to display discount and final price for sale item
+	// Discount is 10% if the purchase price is $10 or less
+	// Discount is 20% if the purchase price is more than $10
+
+	// test for purchases less than $10, exactly $10, and greater than $10
+	$break="<br>";
+	$ipurchase=9;
+	while $ipurchase<=11{
+		if ($ipurchase<=10)$discount=$ipurchase*0.10;
+		}else{$discount=$ipurchase*0.20};
+		print "Your total purchase price is $ipurchase $break";
+	
+	// print sentences to include variables - each sentence on a separate line
+
+	print "My name is ";
+	print $YourName;
+	print "<br>";
+	print "I was born on ";
+	print $YourBirthDate;
+	print "<br>";
+	print "My favorite color is ";
+	print $YourFavoriteColor;
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

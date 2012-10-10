@@ -1,0 +1,76 @@
+<?php
+	// Day 5 Homework - Exercise 3
+	// Write a short program to display discount and final price for sale item
+	// Discount is 10% if the purchase price is $10 or less
+	// Discount is 20% if the purchase price is more than $10
+	// test for purchases less than $10, exactly $10, and greater than $10
+	
+	$break="<br>"
+	
+	for ($ipurchase=9; $ipurchase<12; $ipurchase=$ipurchase+1){
+		
+		if ($ipurchase<=10){
+				$discount=$ipurchase*0.10;
+		} else {
+				$discount=$ipurchase*0.20;
+		}
+				
+		$finalcost=$ipurchase-$discount;
+		
+		print "Your total purchase price is $";
+		print $ipurchase;
+		print $break;
+		
+		print "Your discount is $";
+		print $discount;
+		print $break;
+		
+		print "Your final price is $";
+		print $finalcost;
+		print $break;
+	}
+	
+	
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
