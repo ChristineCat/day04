@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Move &apos;display_discount.php&apos; to &apos;proddisc&apos;" description="Move &apos;display_discount.php&apos; to &apos;proddisc&apos;" destination="proddisc" element1="display_discount.php" element2="index.html" element3="old_index.html" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="3" stamp="1350149230614" updateReferences="true"/>&#x0A;<refactoring comment="Move 1 resources to &apos;proddisc&apos;" description="Move 1 resources to &apos;proddisc&apos;" destination="proddisc" element1="product_discount.html" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1350149236006" updateReferences="true"/>
+</session>

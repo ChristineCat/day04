@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="17" version="2.0">
+<workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
 <window height="764" maximized="true" width="1018" x="141" y="67">
 <fastViewData fastViewLocation="1024"/>
@@ -21,9 +21,10 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="172" y="26"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.php.editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.php.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -32,10 +33,46 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="product_discount.html" partName="product_discount.html" path="/var/www/homer/product_discount.html" title="product_discount.html" tooltip="homer/product_discount.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/homer/product_discount.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="694" selectionTopPixel="394"/>
+</editor>
+<editor id="org.eclipse.wst.css.core.csssource.source" name="nav.css" partName="nav.css" path="/var/www/homer/css/nav.css" title="nav.css" tooltip="homer/css/nav.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/homer/css/nav.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="91" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.css.core.csssource.source" name="main.css" partName="main.css" path="/var/www/homer/css/main.css" title="main.css" tooltip="homer/css/main.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/homer/css/main.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2202" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" partName="index.html" path="/var/www/homer/index.html" title="index.html" tooltip="homer/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/homer/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1872" selectionTopPixel="1156"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="old_index.html" partName="old_index.html" path="/var/www/homer/old_index.html" title="old_index.html" tooltip="homer/old_index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/homer/old_index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="991" selectionTopPixel="197"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="hw03.php" partName="hw03.php" path="/var/www/day05/hw03.php" title="hw03.php" tooltip="day05/hw03.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day05/hw03.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.php.editor" name="hw04.php" partName="hw04.php" path="/var/www/day05/hw04.php" title="hw04.php" tooltip="day05/hw04.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day05/hw04.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
@@ -144,7 +181,83 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/homer/product_discount.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" path="/homer/css/main.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/homer/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" path="/homer/css/nav.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/homer/old_index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/day05/hw03.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/day05/hw04.php"/>
+</editors>
+<item historyLabel="product_discount.html" index="0">
+<position info="not_deleted" x="1928" y="0"/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="product_discount.html" index="0">
+<position info="not_deleted" x="694" y="0"/>
+</item>
+<item historyLabel="index.html" index="2">
+<position info="not_deleted" x="209" y="0"/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="nav.css" index="3">
+<position info="not_deleted" x="462" y="0"/>
+</item>
+<item historyLabel="index.html" index="2">
+<position info="not_deleted" x="440" y="0"/>
+</item>
+<item historyLabel="nav.css" index="3">
+<position info="not_deleted" x="460" y="0"/>
+</item>
+<item historyLabel="index.html" index="2">
+<position info="not_deleted" x="440" y="0"/>
+</item>
+<item historyLabel="nav.css" index="3">
+<position info="not_deleted" x="91" y="0"/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="nav.css" index="3">
+<position info="not_deleted" x="91" y="0"/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="2202" y="0"/>
+</item>
+<item historyLabel="index.html" index="2">
+<position info="not_deleted" x="440" y="0"/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="2202" y="0"/>
+</item>
+<item historyLabel="index.html" index="2">
+<position info="not_deleted" x="1872" y="0"/>
+</item>
+<item historyLabel="old_index.html" index="4">
+<position info="not_deleted" x="991" y="0"/>
+</item>
+<item historyLabel="hw03.php" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="old_index.html" index="4">
+<position info="not_deleted" x="991" y="0"/>
+</item>
+<item historyLabel="hw03.php" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="hw04.php" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -161,11 +274,26 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="hw01.php" tooltip="day04/hw01.php">
-<persistable path="/day04/hw01.php"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="hw04.php" tooltip="day05/hw04.php">
+<persistable path="/day05/hw04.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="hw03.php" tooltip="day05/hw03.php">
+<persistable path="/day05/hw03.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="old_index.html" tooltip="homer/old_index.html">
+<persistable path="/homer/old_index.html"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" tooltip="homer/index.html">
 <persistable path="/homer/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="main.css" tooltip="homer/css/main.css">
+<persistable path="/homer/css/main.css"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="product_discount.html" tooltip="homer/product_discount.html">
+<persistable path="/homer/product_discount.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="hw01.php" tooltip="day04/hw01.php">
+<persistable path="/day04/hw01.php"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="foo.php" tooltip="day04_hw/foo.php">
 <persistable path="/day04_hw/foo.php"/>
