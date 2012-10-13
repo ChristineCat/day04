@@ -97,13 +97,17 @@ body {
 }
 
 
+section {
+	width: 560px;
+}
+
 /* padding box settings */
 body, h1, h2, p {
 	padding: 0;
 }
 
 section {
-	padding: 30px 60px;
+	padding: 20px 60px 30px 0;
 }
 
 header img {
@@ -119,10 +123,6 @@ foor {
 }
 
 /* border box settings */
-
-#top {
-		borde-radius: 25px;
-}}
 body {
 	border: 3px solid black;
 }

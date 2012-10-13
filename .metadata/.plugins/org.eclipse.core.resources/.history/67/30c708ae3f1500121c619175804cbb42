@@ -33,25 +33,38 @@
 	
 	<section id="container">
 	<header id="top"></header>
-
 		<h1>Everything is on sale for Halloween"</h1>
 	</header>
-	<article>
-	<h2>Home Page</h2>
-	<p> rtis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit 
-		 esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio 
-		 dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-		 
-		 <!--  email link-->
-		<p>Click on the
-		<a href="mailto:homer@homermusic.com?Subject=Hello%20Homer"> email link</a> to at vero eros .</p>
-
-		 <h2>My guarantee</h2>
-		 
-		 <p>If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund.  
-		 <strong>No questions asked!</strong></p>
-		</article>
+	
+	
+	
+		<h2 id="mainContent">Product Invoice Calculator</h2>
+	
+		<form action="display_discount.php" method="post">
+	
+		<!--  Data Entry -->
+	
+		<div id="data">
+			<label>Product Description</label>
+			<input type="text" name="product_description"/><b />
+			
+			<label>List Price</label>
+			<input type="text" name="list_price" /><br />
+			
+			<label>Discount Percent:</label>
+			<input type="text" name="discount_percent" />%<br />
+		</div>
+	
+	
+	
+		<!-- Submit -->
+	
+		
+		</form>
 	</section>
+
+
+
 	
 	<footer>
 		<p>&copy; 2012 Homer J. Simpson</p>

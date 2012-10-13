@@ -17,12 +17,11 @@
 		</hgroup>
 		
 		<nav>
-			<a href="index.html">Home</a>
 			<a href="multimedia_column.html">Layout</a>
 			<a href="table.html">Tables</a>
 			<a href="images.html">Graphics</a>
 			<a href="video.html">Multimedia</a>
-			<a href="email_form.html">Forms</a>
+			<a href="static_form.html">Forms</a>
 			<a href="product.php">Products</a>
 			<a href="geolocation.html">Stuff</a>
 		</nav>
@@ -34,7 +33,7 @@
 	<section id="container">
 	<header id="top"></header>
 
-		<h1>Everything is on sale for Halloween"</h1>
+		<h1>Everything is on sale sor Halloween"</h1>
 	</header>
 	<article>
 	<h2>Home Page</h2>
