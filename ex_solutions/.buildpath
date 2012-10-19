@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path="ch02_ex1"/>
+	<buildpathentry kind="src" path="ch02_ex2"/>
+	<buildpathentry kind="src" path="ch04_ex1"/>
+	<buildpathentry kind="src" path="ch05_ex1"/>
+	<buildpathentry kind="src" path="ch06_ex1"/>
+	<buildpathentry kind="src" path="ch07_ex1"/>
+	<buildpathentry kind="src" path="ch07_ex2"/>
+	<buildpathentry kind="src" path="ch08_ex1"/>
+	<buildpathentry kind="src" path="ch08_ex2"/>
+	<buildpathentry kind="src" path="ch09_ex1"/>
+	<buildpathentry kind="src" path="ch09_ex2"/>
+	<buildpathentry kind="src" path="ch10_ex1"/>
+	<buildpathentry kind="src" path="ch11_ex1"/>
+	<buildpathentry kind="src" path="ch12_ex1"/>
+	<buildpathentry kind="src" path="ch12_ex2"/>
+	<buildpathentry kind="src" path="ch13_ex1"/>
+	<buildpathentry kind="src" path="ch14_ex1"/>
+	<buildpathentry kind="src" path="ch14_ex2"/>
+	<buildpathentry kind="src" path="ch15_ex1"/>
+	<buildpathentry kind="src" path="ch15_ex2"/>
+	<buildpathentry kind="src" path="ch19_ex1"/>
+	<buildpathentry kind="src" path="ch20_ex1"/>
+	<buildpathentry kind="src" path="ch23_ex1"/>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+</buildpath>

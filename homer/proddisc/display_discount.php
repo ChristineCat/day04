@@ -3,10 +3,9 @@
 
 
 	// Get the user data from the form
-	$product_description = $_POST["product_description"];
+	$product_description = $_POST[product_description];
 	$list_price = $_POST["list_price"];
 	$discount_percent = $_POST["discount_percent"];
-
 
 
 	// Calculate the discount
@@ -24,16 +23,14 @@
 
 
 
-
 <!DOCTYPE html >
 <html lang="en">
 
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Product Discount Calculator</title>
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="../main.css" />
 </head>
+
 <body>
     <div id="content">
         <h1>This page is under construction</h1>
