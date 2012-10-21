@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Just for Fun</title>
+
+	
+<style>
+	div {
+	margin: 10px;
+	height: 100px;
+	width: 100px;
+	font-size: 200%;
+	color: white;
+	background-color: red;
+	}
+	#three {
+	background-color: blue;
+	float: right;
+	}
+	#four {
+	clear: right;
+	}
+</style>
+
+</head>
+
+<body>
+	<div id="one">One</div>
+	<div id="two">Two</div>
+	<div id="three">Three</div>
+	<div id="four">Four</div>
+</body>
+
+</html>

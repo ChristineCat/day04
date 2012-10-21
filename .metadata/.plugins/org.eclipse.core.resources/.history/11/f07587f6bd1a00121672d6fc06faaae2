@@ -1,0 +1,218 @@
+/* Set nav bar background, borders, and align text */
+nav {
+	background-color: yellowGreen;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	text-align: center;	
+}
+
+/* Remove margins and padding */
+nav, #main ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* Add padding, style fonts and remove underlines */
+nav a{
+	padding: 10px;
+	font-size: 110%;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+/* Eliminate list bullets */
+nav ul {
+	list-style-type: none;
+}
+
+/* Set display hyperlinks as inline elements */
+nav li {
+	display:inline-block;
+}
+
+/* Add pseudo class states */
+#main li:hover a{
+	color: blue;
+	background-color: ghostWhite;
+}
+
+
+
+
+
+
+
+
+
+
+/* Set the font family to sans serif */
+body {
+	font-family: Verdana, Arial, Helvetica, sans serif;
+}
+
+/* Make header fonts larger */
+h2 {
+	font-size: 125%;
+}
+
+header h1 {
+	font-size:250%;"
+}
+
+section h1 {
+	font-size:140%;
+}
+
+/* Make footer fonts smaller */
+footer p {
+	font-size: 90%;
+}
+
+/* Indent header text*/
+hgroup {
+	text-indent: 25px;
+}
+
+/* Center footer text */
+footer p {
+	text-align: center;
+}
+
+/* Add text shadow to header */
+#top {
+	text-shadow:
+	3px 3px 0px red,
+	6px 6px 0px orange,
+	9px 9px 0px yellow,
+	12px 12px 0px green,
+	15px 15px 0px indigo,
+	21px 21px 0px violet;
+}
+
+/* Make First letter of header larger */
+section h1::first-letter {
+	font-size: 250%;
+}
+
+/* Make strong text orange and blink */
+strong {
+		color: orange;
+		text-decoration: blink;
+}
+
+/* background color */
+section {
+	background-color: white;
+}
+
+header {
+	background-color: black;
+}
+
+#top {
+	background-color: lightblue;
+}
+
+footer {
+	background-color: orange;
+}
+
+
+/* background image */
+body {
+	background-image: url('../images/bats.gif');
+}
+
+
+/* linear gradient settings */
+header {
+	background-image: -webkit-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+}
+
+footer {
+	background-image: -webkit-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+}
+
+/* box shadows */
+section {
+	box-shadow: 0px 9px 18px red;
+}
+
+/* content box settings */
+body {
+	width: 850px;
+}
+
+
+/* padding box settings */
+body, h1, h2, p {
+	padding: 0;
+}
+
+section {
+	padding: 30px 60px;
+}
+
+header img {
+	padding-right: 15px;
+}
+
+hgroup {
+	padding-top: 15px;
+}
+
+foor {
+	padding: 15px;
+}
+
+/* border box settings */
+
+#top {
+		borde-radius: 25px;
+}}
+body {
+	border: 3px solid black;
+}
+
+header {
+	border-bottom: 2px solid black;
+}
+
+footer {
+	border-top: 2px solid black;
+}
+
+/* margin box settings */
+section {
+	margin: 0 auto;
+}
+
+h1, h2, p {
+	margin: 0;
+}
+
+section h1 {
+	margin-bottom: .5em;
+}
+
+section h2 {
+	margin: .8em 0 .5em 0;
+}
+
+section p {
+	margin-top: .5em:
+}
+
+
+/* floating layout */
+
+
+
+
+
+
+
+
+
+
