@@ -72,16 +72,16 @@
 	<h1>Congratulations! You Saved <?php echo $discount_formatted; ?></h1>
 		
 	 <label>Purchase Price: </label>
-	        <span><?php echo $purchase_price_formatted; ?></span><br />
+	        <output><?php echo $purchase_price_formatted; ?></output><br />
 	
 	        <label>Percent Discount: </label>
-	        <span><?php echo $dpercent_formatted; ?></span><br />
+	        <output><?php echo $dpercent_formatted; ?></output><br />
 	
 	        <label>Discount Amount: </label>
-	        <span><?php echo $discount_formatted; ?></span><br />
+	        <output><?php echo $discount_formatted; ?></output><br />
 	
 	        <label>Discounted Price: </label>
-	        <span><?php echo $finalcost_formatted; ?></span><br />
+	        <output><?php echo $finalcost_formatted; ?></output><br />
 	
 	        <p>&nbsp;</p>
 	   </div>

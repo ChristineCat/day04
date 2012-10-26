@@ -6918,3 +6918,17 @@ Binding(CTRL+SHIFT+I,
 
 !ENTRY org.eclipse.dltk.core 2 0 2012-10-25 15:37:14.727
 !MESSAGE Error decoding problem idenfier "1073741824"
+
+!ENTRY org.eclipse.ui 4 4 2012-10-26 15:15:11.856
+!MESSAGE Unable to find Action Set: org.eclipse.wst.server.ui.internal.webbrowser.actionSet
+
+!ENTRY org.eclipse.ui.workbench 2 0 2012-10-26 15:15:18.022
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2012-10-26 15:15:18.022
+!MESSAGE Conflict for 'org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu':
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@e503c9,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@14ec00),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13acc52)),sourcePriority=1064960)
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@15bb9ff,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@14ec00),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@13acc52)),sourcePriority=1064960)
