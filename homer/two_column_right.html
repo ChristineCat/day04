@@ -25,6 +25,34 @@
 			clear: both;
 		}
 		
+	/* Style Changes to FIX IT! include adding or changing padding, setting minimum and maximum heights and scrolling overflow */
+	/* Some of these changes override the main.css so I kept them here */
+	/* Container is 850.  Container padding is 30.  Main Content and sidebar padding is 10.  Sidebar width is 160.  */
+	/* (2*30)+(2*(2*10))+160=60+40+160=260 */
+	/* 850-260=590 which is what I will use for the width of the mainContent */
+	/* I understood that there would be no white gap between the sidebar and main content - otherwise I would have kept margins and reduced the width of the main content */
+	#rightSidebar {
+		margin: 0px;
+		padding: 10px;
+		height: 380px;
+		overflow: scroll;		
+	}
+	#mainContent {
+		margin: 0px;
+		padding: 10px;
+		height: 380px;
+		float: left;
+		width: 590px;
+		overflow: scroll;		
+	}
+	
+	#container {
+		height: 400px;
+		background-color: white;
+		padding: 30px 30px;
+		
+		
+		
 	</style>
 </head>
 
@@ -60,7 +88,7 @@
 		
 	</header>
 	
-	<section>
+	<section id="container">
 	
     <aside id="rightSidebar">
 

@@ -80,7 +80,7 @@
 	        <label>Discount Amount: </label>
 	        <span><?php echo $discount_formatted; ?></span><br />
 	
-	        <label>Discount Price: </label>
+	        <label>Discounted Price: </label>
 	        <span><?php echo $finalcost_formatted; ?></span><br />
 	
 	        <p>&nbsp;</p>

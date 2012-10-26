@@ -26,13 +26,53 @@
 	
 	#mainContent {
 		background-color: rgb(195,214,155);
-		margin-right: 200px;
-		margin-left: 200px;
+		margin-right: 210px;
+		margin-left: 210px;
 	}
 	
 	footer {
 		clear: both;
 	}
+	
+	/* Style Changes to FIX IT! include adding or changing padding, setting minimum and maximum heights and scrolling overflow */
+	/* Some of these changes override the main.css so I kept them here */
+	/* Container is 850.  Container padding is 30.  Main Content and sidebar padding are 10.  Sidebar width is 160.  */
+	/* (2*30)+(3*(2*10))+(2*160)=60+60+320=440 */
+	/* Moved mainContent in HTML before ightSidebar */
+	/* 850-440=410 which is what I will use for the width of the mainContent */
+	/* I understood that there would be no white gap between the sidebar and main content - otherwise I would have kept margins and reduced the width of the main content */
+
+	#leftSidebar {
+		margin: 0px;
+		padding: 10px;
+		height: 380px;
+		overflow: scroll;		
+	}
+	
+	#rightSidebar {
+		margin: 0px;
+		padding: 10px;
+		height: 380px;
+		overflow: scroll;		
+	}
+
+
+	#mainContent {
+		margin: 0px;
+		padding: 10px;
+		height: 380px;
+		float: left;
+		width: 410px;
+		overflow: scroll;		
+	}
+	
+	#container {
+		margin: 0px;
+		height: 400px;
+		background-color: white;
+		padding: 30px 30px;
+	}
+	
 	
 	
 	</style>
@@ -68,11 +108,10 @@
 		
 
 	
-	
 		
 	</header>
 	
-	<section>
+	<section id="container">
 	
     <aside id="leftSidebar">
 
@@ -91,13 +130,9 @@
 
     </aside>
 
-    <aside id="rightSidebar">
-	    <p><strong>Right Byline</strong> Lorem ipsum dolor sit amet, 
-		consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt 
-		ut.</p>
-    </aside>
-
-    <article id="mainContent">
+	<!-- Moved mainContent in HTML before rightSidebar -->
+    
+   <article id="mainContent">
 	<h2>Three Column Float Layout</h2>
 
 		<p><strong>Main content</strong> Lorem ipsum dolor sit amet, 
@@ -122,6 +157,14 @@
 		euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 
     </article>
+
+    <aside id="rightSidebar">
+	    <p><strong>Right Byline</strong> Lorem ipsum dolor sit amet, 
+		consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt 
+		ut.</p>
+    </aside>
+
+ 
 
     </section>
 	
