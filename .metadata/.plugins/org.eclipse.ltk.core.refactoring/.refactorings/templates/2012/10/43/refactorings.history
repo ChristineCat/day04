@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;templates/selectors.html&apos; to &apos;selector.html&apos;" description="Rename resource &apos;selectors.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="selectors.html" name="selector.html" stamp="1351350079659" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;templates/selector.html&apos; to &apos;selectors.html&apos;" description="Rename resource &apos;selector.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="selector.html" name="selectors.html" stamp="1351350103520" updateReferences="true"/>
+</session>
