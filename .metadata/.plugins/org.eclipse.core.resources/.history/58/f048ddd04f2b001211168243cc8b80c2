@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>xxxxxxxxxxxxxxx</title>
+	<link rel="stylesheet" href="css/main.css" />
+	<script>
+		var a =10;  // declaring and setting a variable 
+		display_a(); //calling a function 
+		
+		function display_a() {  //declaring a named function
+			var a=20;  //declaring and setting a value 
+			alert("Value of 'a' inside the function " + a);
+		}
+		
+		alert("Value of 'a' outside the function " + a);
+	</script>
+
+</head>
+
+<body>
+	<header>
+		<hgroup>
+			<h1>xxxxxxxxxxxxxx</h1>
+			<h2>xxxxxxxxxxxxxxxxxx</h2>
+		</hgroup>
+		
+		<nav>
+			<a href="multimedia_column.html">Layout</a>
+			<a href="table.html">Tables</a>
+			<a href="images.html">Graphics</a>
+			<a href="video.html">Multimedia</a>
+			<a href="static_form.html">Forms</a>
+			<a href="product.php">Products</a>
+			<a href="geolocation.html">Stuff</a>
+		</nav>
+		
+		
+	</header>
+	
+	<script>
+		var a =10;  // declaring a variable 
+		display_a(); //calling a function
+	</script>
+	
+
+	
+	<footer>
+		<p>&copy; xxxxxxxxxxxxxxx</p>
+	</footer>
+	
+</body>
+
+</html>

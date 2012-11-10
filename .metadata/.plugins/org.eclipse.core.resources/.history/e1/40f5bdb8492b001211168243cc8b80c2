@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>xxxxxxxxxxxxxxx</title>
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+	<header>
+		<img src="xxxxxxxxxxxxx.jpg" alt="xxxxxxxxxx" width="100" height"100>
+		<hgroup>
+			<h1>xxxxxxxxxxxxxx</h1>
+			<h2>xxxxxxxxxxxxxxxxxx</h2>
+		</hgroup>
+		
+		<nav>
+			<a href="multimedia_column.html">Layout</a>
+			<a href="table.html">Tables</a>
+			<a href="images.html">Graphics</a>
+			<a href="video.html">Multimedia</a>
+			<a href="static_form.html">Forms</a>
+			<a href="product.php">Products</a>
+			<a href="geolocation.html">Stuff</a>
+		</nav>
+		
+		
+	</header>
+	
+	<section id="container">
+
+		<h1 id="top"> xxxxxxxxxx</h1>
+		
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+		 dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
+		 lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit 
+		 esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio 
+		 dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+		 
+		 <!--  email link-->
+		<p>Click on the
+		<a href="mailto:homer@homermusic.com?Subject=Hello%20Homer"> email link</a> to contact us .</p>
+
+		 <h3>xxxxxxxxxx</h3>
+		 
+		 <p>xxxxxxxxxxxx.  
+		 <strong>yyyyyyyyyyyyyyyy!</strong></p>
+
+	</section>
+	
+	<footer>
+		<p>&copy; xxxxxxxxxxxxxxx</p>
+	</footer>
+	
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>xxxxxxxxxxxxxxx</title>
+	<link rel="stylesheet" href="css/main.css" />
+	<style>
+		div{
+			padding: 30px;
+		}
+		#orange {
+			width: 300px;
+			background-color: orange;
+		}
+		#green {
+			background-color: limeGreen;
+		}
+		#blue {
+			background-color: cyan;
+		}
+	</style>
+<script>
+//Create Alert Functions and Bind to Elements 
+window.onload = function () {
+	document.getElementById("blue").onclick = function () {
+		alert("Blue Block was clicked")
+	}
+}
+</script>
+</head>
+
+<body>
+	<div id="orange">
+		<div id="green">
+			<div id="blue">Click here</div>
+		</div>	
+	</div>
+	
+
+	
+
+	
+	<footer>
+
+
+	</footer>
+	
+</body>
+
+</html>

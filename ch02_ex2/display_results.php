@@ -1,8 +1,8 @@
 <?php
     // get the data from the form
-    $investment = $_POST['investment'];
-    $interest_rate = $_POST['interest_rate'];
-    $years = $_POST['years'];
+    $investment = $_GET['investment'];
+    $interest_rate = $_GET['interest_rate'];
+    $years = $_GET['years'];
 
     // validate investment entry
     if ( empty($investment) ) {

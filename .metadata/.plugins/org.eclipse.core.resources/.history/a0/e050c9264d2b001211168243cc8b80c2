@@ -1,0 +1,16 @@
+function calculate() {
+
+// get input from user
+
+
+
+
+// calculate discount amount and discount price
+var $discount = $list_price * $discount_percent * 0.01;
+var $discount_price = $list_price - $discount;
+
+
+
+// set output
+} // end calculate
+	

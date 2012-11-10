@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>xxxxxxxxxxxxxxx</title>
+	<link rel="stylesheet" href="css/main.css" />
+	<style>
+		div{
+			padding: 30px;
+		}
+		#orange {
+			width: 300px;
+			background-color: orange;
+		}
+		#green {
+			background-color: limeGreen;
+		}
+		#blue {
+			background-color: cyan;
+		}
+	</style>
+<script>
+//Create Alert Functions 
+function myBlue() {
+	alert("Blue block was clicked");
+}
+</script>
+</head>
+
+<body>
+	<div id="orange">
+		<div id="green">
+			<div id="blue" onclick="myBlue();">Click here</div>
+		</div>	
+	</div>
+	
+
+	
+
+	
+	<footer>
+
+
+	</footer>
+	
+</body>
+
+</html>

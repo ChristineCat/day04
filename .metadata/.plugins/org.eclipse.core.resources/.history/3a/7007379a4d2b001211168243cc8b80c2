@@ -1,0 +1,20 @@
+function calculate() {
+
+// get input from user
+
+var $list_price;  //Step 1: Declare variable
+$list_price = document.getElementById('list_price'); //Step 2: Assign value to get reference to user input using documnt object method
+$list_price.valueAsNumber;
+
+// calculate discount amount and discount price
+	
+var $discount = $list_price * $discount_percent * 0.01;
+var $discount_price = $list_price - $discount;
+
+
+
+// set output
+
+
+} // end calculate
+	
