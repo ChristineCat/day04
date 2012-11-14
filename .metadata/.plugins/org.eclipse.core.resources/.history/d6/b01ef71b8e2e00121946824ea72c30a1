@@ -109,7 +109,7 @@
 			
 			
 			<label>Discount Percent:</label>
-			<input type="number" id="discount_percent" />%<br />
+			<input type="number" id="discount_percent" disabled/>%<br />
 		</div>
 	
 		<!-- Submit -->
@@ -125,7 +125,7 @@
 	<output id="discount" for="list_price discount_percent">
 	</output><br />
 	<label>Discount Price:</label>
-	<output id="discountPrice" for="list_price discount">
+	<output id="discount_price" for="list_price discount">
 	</output><br />
 </div>
 

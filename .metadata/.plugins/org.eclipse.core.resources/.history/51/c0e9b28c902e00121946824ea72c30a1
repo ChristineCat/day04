@@ -19,7 +19,7 @@ discount = '$'+discount.toFixed(2);
 document.getElementById('discount').value = discount;
 
 discountPrice = '$'+discountPrice.toFixed(2);
-document.getElementById('discountPrice').value = discountPrice;
+document.getElementById('discount').value = discountPrice;
 
 } // end calculate
 	
