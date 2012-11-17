@@ -280,17 +280,32 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="display_results.php" tooltip="ch02_ex2/display_results.php">
-<persistable path="/ch02_ex2/display_results.php"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="main.css" tooltip="wk9_hw/css/main.css">
+<persistable path="/wk9_hw/css/main.css"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index_get.html" tooltip="wk9_hw/index_get.html">
+<persistable path="/wk9_hw/index_get.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="display_results.php" tooltip="wk9_hw/display_results.php">
+<persistable path="/wk9_hw/display_results.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="index_get.php" tooltip="ch02_ex2/index_get.php">
+<persistable path="/ch02_ex2/index_get.php"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="index.php" tooltip="ch02_ex2/index.php">
 <persistable path="/ch02_ex2/index.php"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" tooltip="templates/index.html">
-<persistable path="/templates/index.html"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="calculator.js" tooltip="homer/js/calculator.js">
 <persistable path="/homer/js/calculator.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="invoice_total.html" tooltip="homer/invoice_total.html">
+<persistable path="/homer/invoice_total.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="display_results.php" tooltip="ch02_ex2/display_results.php">
+<persistable path="/ch02_ex2/display_results.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" tooltip="templates/index.html">
+<persistable path="/templates/index.html"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="old_product_discount.html" tooltip="homer/old_product_discount.html">
 <persistable path="/homer/old_product_discount.html"/>
@@ -309,21 +324,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="table.html" tooltip="homer/table.html">
 <persistable path="/homer/table.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="discount.php" tooltip="day06/discount.php">
-<persistable path="/day06/discount.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="display_discount.php" tooltip="day06/display_discount.php">
-<persistable path="/day06/display_discount.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="product_discount.html" tooltip="day06/product_discount.html">
-<persistable path="/day06/product_discount.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="multiplication.php" tooltip="day06/multiplication.php">
-<persistable path="/day06/multiplication.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="shell.html" tooltip="templates/shell.html">
-<persistable path="/templates/shell.html"/>
 </file>
 </mruList>
 </workbench>
