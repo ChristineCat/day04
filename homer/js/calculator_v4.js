@@ -35,7 +35,7 @@ discount = '$'+discount.toFixed(2);
 $('discount').value = discount;
 
 discountPrice = '$'+discountPrice.toFixed(2);
-$('discount_price').value = discountPrice;
+$('discount_price discount').value = discountPrice;
 
 } // end calculate
 
@@ -60,20 +60,20 @@ function discPercCalc (listPrice, customerType) {
 	}
 		discountPercent = parseFloat(discountPercent);
 		return discountPercent;
-}
+}  // end discPercCalc
 
 // calculate discount amount function
 function discAmountCalc (listPrice, discountPercent) {
 	var discAmount = listPrice * discountPercent * .01;
 	return discAmount;
-}
+} // end discAmountCalc
 
 
 // calculate discount price function
 function discPriceCalc (listPrice, discount) {
 	var discPrice = listPrice - discount;
 	return discPrice;
-}
+}  // end discPriceCalc
 
 
 

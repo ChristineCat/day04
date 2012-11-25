@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="19" version="2.0">
+<workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
 <window height="764" maximized="true" width="1018" x="141" y="67">
 <fastViewData fastViewLocation="1024"/>
@@ -46,6 +46,9 @@
 <view id="org.eclipse.dltk.ui.TypeHierarchy" partName="Type Hierarchy"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="596" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -280,6 +283,39 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="invoice_total_v2.html" tooltip="homer/invoice_total_v2.html">
+<persistable path="/homer/invoice_total_v2.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="invoice_total.html" tooltip="homer/invoice_total.html">
+<persistable path="/homer/invoice_total.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="calculator_v2.js" tooltip="homer/js/calculator_v2.js">
+<persistable path="/homer/js/calculator_v2.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="calculator.js" tooltip="homer/js/calculator.js">
+<persistable path="/homer/js/calculator.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="invoice_total_v4.html" tooltip="homer/invoice_total_v4.html">
+<persistable path="/homer/invoice_total_v4.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="calculator_v4.js" tooltip="homer/js/calculator_v4.js">
+<persistable path="/homer/js/calculator_v4.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="calculator_v3.js" tooltip="homer/js/calculator_v3.js">
+<persistable path="/homer/js/calculator_v3.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="invoice_total_v3.html" tooltip="homer/invoice_total_v3.html">
+<persistable path="/homer/invoice_total_v3.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="product_discount.html" tooltip="homer/proddisc/product_discount.html">
+<persistable path="/homer/proddisc/product_discount.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="nav.css" tooltip="homer/css/nav.css">
+<persistable path="/homer/css/nav.css"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="main.css" tooltip="homer/css/main.css">
+<persistable path="/homer/css/main.css"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="main.css" tooltip="wk9_hw/css/main.css">
 <persistable path="/wk9_hw/css/main.css"/>
 </file>
@@ -291,39 +327,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="index_get.php" tooltip="ch02_ex2/index_get.php">
 <persistable path="/ch02_ex2/index_get.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="index.php" tooltip="ch02_ex2/index.php">
-<persistable path="/ch02_ex2/index.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="calculator.js" tooltip="homer/js/calculator.js">
-<persistable path="/homer/js/calculator.js"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="invoice_total.html" tooltip="homer/invoice_total.html">
-<persistable path="/homer/invoice_total.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="display_results.php" tooltip="ch02_ex2/display_results.php">
-<persistable path="/ch02_ex2/display_results.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" tooltip="templates/index.html">
-<persistable path="/templates/index.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="old_product_discount.html" tooltip="homer/old_product_discount.html">
-<persistable path="/homer/old_product_discount.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="product_discount.html" tooltip="homer/proddisc/product_discount.html">
-<persistable path="/homer/proddisc/product_discount.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="beer.html" tooltip="homer/beer.html">
-<persistable path="/homer/beer.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="images.html" tooltip="homer/images.html">
-<persistable path="/homer/images.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="rollover.html" tooltip="homer/rollover.html">
-<persistable path="/homer/rollover.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="table.html" tooltip="homer/table.html">
-<persistable path="/homer/table.html"/>
 </file>
 </mruList>
 </workbench>

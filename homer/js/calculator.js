@@ -1,25 +1,48 @@
 function calculate() {
 
-// get input from user
+// GET INPUT FROM USER
+	
+// Declare variable
+var $list_price;
 
-var listPrice = 
-		document.getElementById('list_price').valueAsNumber;
+// assign a value that is to get a reference to user input using document object method
+$list_price = document.getElementById('list_price');
+$list_price = $list_price.valueAsNumber;
+
+// get a number value inputted using number object method
+$list_price = $list_price.valueAsNumber;
 			
-var discountPercent = 
-		document.getElementById('discount_percent').valueAsNumber;
+// declare variable, assign a value that is to get a reference to user input using document object method, 
+// and get a number value inputted using number object method
+var $discount_percent = document.getElementById('discount_percent').valueAsNumber;
 
-// calculate discount amount and discount price
+// CALCULATE DISCOUNT AMOUNT AND DISCOUNT PRICE
 
-var discount = listPrice * discountPercent * .01;
-var discountPrice = listPrice - discount;
+var $discount
+$discount = $list_price * $discount_percent * .01;
+var $discount_price = $list_price - $discount;
 
-// set output in currency format (sort of)
+// SET OUTPUT IN CURRENCY FORMAT (sort of)
 
-discount = '$'+discount.toFixed(2);
-document.getElementById('discount').value = discount;
+// convert a number value to a string value keeping 2 decimal places
+$discount = $discount.toFixed(2);
 
-discountPrice = '$'+discountPrice.toFixed(2);
-document.getElementById('discountPrice').value = discountPrice;
+// concatenate $ to string variable
+$discount = '$'+$discount;
+
+// declare temporary variable for returning output
+var tempVar;
+
+// set reference to output using document object method
+tempVar = discount.getElementById('discount');
+
+// set string value output using string object method
+tempVar.value = $discount;
+
+// convert a number value to a string value, keeping 2 decimal places and concatenate $ to string variable
+// Set reference to output using document object method and set string value output using string object method.
+$discount_price = '$'+discount_price.toFixed(2):
+document.getElementById('discount').value = $discount_price;
 
 } // end calculate
 	
