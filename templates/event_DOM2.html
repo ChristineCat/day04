@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>xxxxxxxxxxxxxxx</title>
+	<title>event_DOM2</title>
 	<link rel="stylesheet" href="css/main.css" />
 	<style>
 		div{
@@ -33,29 +33,29 @@
 			alert("Blue Block was clicked");
 		}
 
-// Bind Event Listeners to Elements 
+// Bind Click Event Listeners to Elements 
 
 		function addOrangeClick() {
 			var orange = document.getElementById("orange");
-			orange.addEventListener("click", myOrange, true);
+			orange.addEventListener("click", myOrange, false);
 		}
+		
 		function addGreenClick() {
 			var green = document.getElementById("green");
 			green.addEventListener("click", myGreen, true);
 		}
+		
 		function addBlueClick() {
 			var blue = document.getElementById("blue");
-			blue.addEventListener("click", myBlue, true);
+			blue.addEventListener("click", myBlue, false);
 		}
-//Bind Click Event Listeners to page loading event
-		window.addEventListener("load" addOrangeClick, false);
-		window.addEventListener("load" addGreenClick, false);
-		window.addEventListener("load" addBlueClick, false);
+//Bind Click Event Listeners to page loading event 
+		window.addEventListener("load", addOrangeClick, false);
+		window.addEventListener("load", addGreenClick, false);
+		window.addEventListener("load", addBlueClick, false);
 	</script>
 	
 </head>
-
-
 
 <body>
 	<div id="orange">
@@ -63,13 +63,8 @@
 			<div id="blue">Click here</div>
 		</div>	
 	</div>
-	
-
-	
-
-	
+		
 	<footer>
-
 
 	</footer>
 	
