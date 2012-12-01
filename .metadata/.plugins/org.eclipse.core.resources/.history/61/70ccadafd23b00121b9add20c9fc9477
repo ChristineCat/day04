@@ -1,0 +1,37 @@
+// Declare counter variable
+var counter = 0;
+
+// Add contact funtion adds new table rows
+function addContact() {
+	
+	// Get input from the user
+	
+	
+	// Create new HTML row elements
+	
+	
+	// Set row value
+	
+	
+	// Set input values
+	
+	
+	// Set remove button
+	
+	
+	// Add  table cells to the table row 
+	
+	
+	// Add table row to the table
+	
+	
+	// increment couynter
+	
+	
+} // end add Contact function
+
+
+
+
+// Delete contact function removes existing table rows 
+

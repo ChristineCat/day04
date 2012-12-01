@@ -8,6 +8,48 @@
 	<link rel="shortcut icon" href="images/homer.ico" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/nav.css" />
+	
+	
+	<script>
+		function addShow() {
+		// Get Input from User 
+		var text = document.getElementById("getInput").value;
+		
+		// Create new DOM list node 
+		var node = document.createElement("li");
+		
+		// Append new show after Much Apu About Nothing 
+		// and before A Streetcar Named Marge
+		
+//		var place = document.getElementById("8F18");
+//		document.getElementById("theList").insertBefore(node,place);
+		
+		
+		// Add new show text to DOM list node 
+		node.innerHTML = text;
+		
+		function setColors() {
+			// Get Number of rows in array 
+			var rows = 
+				document.getElementById("theList").getElementByTagName("li");
+			
+			// Get colors inputs from user in argument 
+			var setColors = [color1.value, color2.value];
+			
+			// Color odd & even rows 
+			for (var i=0; i<rows.length; i++) {
+				rows[i].style.backgroundColor = colors[i % 2];
+			}
+			
+		}
+		
+		// Append new show at end of list 
+		document.getElementById("theList").appendChild(node);	
+		}
+	</script>
+	
+	
+	
 </head>
 
 <body>
@@ -104,7 +146,7 @@
 					<input type="color" id="color1" value="yellow"><br />
 					<label for="color2">Color #2:</label>
 					<input type="color" id="color2" value="limeGreen"><br />
-					<button onclick="setColors(color1,colo2);">Color</button>
+					<button type="button" onclick="setColors(color1,colo2);">Color</button>
 			</fieldset>
 			
 		</article>

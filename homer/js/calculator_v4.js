@@ -76,7 +76,26 @@ function discPriceCalc (listPrice, discount) {
 }  // end discPriceCalc
 
 
-
+// date function
+function getToday () {
+	
+	// Create new date
+	var currentDate = new Date();
+	
+	// Get current month, day, year values
+	var month = currentDate.getMonth() + 1;
+	var day = currentDate.getDate();
+	var year = currentDate.getFullYear();
+	
+	// Set date formats - add leading zero if month or day has only one digit
+	month = (month < 10) ? "0" = month : month;
+	day = (day < 10) ? "0" + day : day;
+	
+	// return date output
+	var dateString = "Today is " + month + "/" + day + "/" + year;
+	document.writeln(dateString);
+	
+} // end date function
 
 
 

@@ -1,0 +1,8 @@
+// Declare counter variable
+var counter = 0;
+
+// Add contact funtion adds new table rows
+
+
+// Delete contact function removes existing table rows 
+

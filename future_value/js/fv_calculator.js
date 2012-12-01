@@ -9,7 +9,10 @@ function calculate() {
 	var investAmount=$('investment').valueAsNumber;
 	var intRate=$('interest_rate').valueAsNumber;
 	var investYears=$('years').valueAsNumber;
-console.log('received input');	
+
+alert ('got the the variables');
+return false;
+	
 // validate input - investment
 //	var error='';
 //    if (investAmount==0) {
@@ -43,7 +46,7 @@ console.log('received input');
     
 // calculate the future value
     var futureValue = investAmount;
-    for (var i = 1; i <= investYears; $i++) {
+    for (var i = 1; i <= investYears; i++) {
         futureValue = (futureValue + (futureValue * intRate *.01));
     }
 // apply currency and percent formatting
