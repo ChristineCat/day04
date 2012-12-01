@@ -58,7 +58,7 @@
     $yearly_rate_f = $interest_rate.'%';
     $future_value_f = '$'.number_format($future_value, 2);
 
-    // Compose Date statement
+    // Compse Date statement
     $date = date('m/d/Y');
     $calculation_date = 'This calculation was done on '.$date .'.'
     

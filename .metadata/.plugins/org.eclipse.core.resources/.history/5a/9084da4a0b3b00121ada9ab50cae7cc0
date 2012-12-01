@@ -1,0 +1,63 @@
+function calculate() {
+	
+// create helper function
+	var $ = function(id){
+		return document.getElementById(id);
+	}
+
+// get input from user	
+	var investAmount=$('investment').valueAsNumber;
+	var intRate=$('interest_rate').valueAsNumber;
+	var investYears=$('years').valueAsNumber;
+	
+// validate input - investment
+	
+    if (investAmount==0) {
+        $(investAmount).value = 'Investment is a required field.';
+    	return;}
+     else if (investAmount <= 0 ) {
+    	$(investAmount).value = 'Investment must be greater than zero.'; 
+    	return;}
+    // validate interest rate entry
+    else if (intRate<=0) {
+        $(intRate).value = 'Interest rate must be greater than zero.'; 
+        return;}
+    else if (intRate > 15 ) {
+    	$(intRate).value = 'Interest rate must be less than or equal to fifteen.';
+       	return;
+        }
+    
+    // validate years entry
+    else if (investYears<=0 ) {
+    	$(investYears).value = 'Years must be greater than zero.';
+    	return;
+    }
+    else if (investYears >= 50 ) {
+    	$(investYears).value = 'Years must be less than fifty.';
+    }
+
+// calculate the future value
+    futureValue = investAmount;
+    for (var i = 1; i <= investYears; $i++) {
+        futureValue = (futureValue + (futureValue * intRate *.01));
+    }
+// apply currency and percent formatting
+    investment = '$'+invAmount.toFixed(2);
+    intRate = intRate.'%';
+    futureValue = '$'+futureValue.toFixed(2);
+
+// Compose Date statement
+//    $date = date('m/d/Y');
+  //  $calculation_date = 'This calculation was done on '.$date .'.'
+ 
+
+  
+	
+	
+	
+	
+	
+	
+	
+	
+}
