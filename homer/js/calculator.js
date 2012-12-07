@@ -1,48 +1,104 @@
-function calculate() {
+// create helper function
+var $ = function (id) {
+	return document.getElementById(id);
+}
 
-// GET INPUT FROM USER
+function calculate() {	
 	
-// Declare variable
-var $list_price;
+// get input from user
 
-// assign a value that is to get a reference to user input using document object method
-$list_price = document.getElementById('list_price');
-$list_price = $list_price.valueAsNumber;
+var listPrice = 
+	$('list_price').valueAsNumber;
 
-// get a number value inputted using number object method
-$list_price = $list_price.valueAsNumber;
-			
-// declare variable, assign a value that is to get a reference to user input using document object method, 
-// and get a number value inputted using number object method
-var $discount_percent = document.getElementById('discount_percent').valueAsNumber;
+var customerType =
+	$('type').value;
 
-// CALCULATE DISCOUNT AMOUNT AND DISCOUNT PRICE
+// call calculate discount percent function
 
-var $discount
-$discount = $list_price * $discount_percent * .01;
-var $discount_price = $list_price - $discount;
+var discountPercent = discPercCalc(listPrice, customerType);
 
-// SET OUTPUT IN CURRENCY FORMAT (sort of)
+// call calculate discount amount function
 
-// convert a number value to a string value keeping 2 decimal places
-$discount = $discount.toFixed(2);
+var discount = discAmountCalc(listPrice, discountPercent);
 
-// concatenate $ to string variable
-$discount = '$'+$discount;
 
-// declare temporary variable for returning output
-var tempVar;
+// call calculate discount price function
 
-// set reference to output using document object method
-tempVar = discount.getElementById('discount');
+var discountPrice = discPriceCalc(listPrice, discount);
 
-// set string value output using string object method
-tempVar.value = $discount;
 
-// convert a number value to a string value, keeping 2 decimal places and concatenate $ to string variable
-// Set reference to output using document object method and set string value output using string object method.
-$discount_price = '$'+discount_price.toFixed(2):
-document.getElementById('discount').value = $discount_price;
+// set output in currency format (sort of)
+
+$('discount_percent').valueAsNumber = discountPercent;
+
+discount = '$'+discount.toFixed(2);
+$('discount').value = discount;
+
+discountPrice = '$'+discountPrice.toFixed(2);
+$('discount_price').value = discountPrice;
 
 } // end calculate
+
+
+// calculate discount percent function
+
+function discPercCalc (listPrice, customerType) {
+	if (customerType === "R") {
+		if (listPrice < 100) {
+				discountPercent = 0;
+			} else if (listPrice >= 100 && listPrice < 250) {
+				discountPercent = 10;
+			} else if (listPrice >=250) {
+				discountPercent = 25;
+			}
+		} else if (customerType === "C") {
+			if (listPrice < 250) {
+				discountPercent = 20;
+		} else {
+			discountPercent = 30;
+		}
+	}
+		discountPercent = parseFloat(discountPercent);
+		return discountPercent;
+}  // end discPercCalc
+
+// calculate discount amount function
+function discAmountCalc (listPrice, discountPercent) {
+	var discAmount = listPrice * discountPercent * .01;
+	return discAmount;
+} // end discAmountCalc
+
+
+// calculate discount price function
+function discPriceCalc (listPrice, discount) {
+	var discPrice = listPrice - discount;
+	return discPrice;
+}  // end discPriceCalc
+
+
+// date function
+function getToday () {
+	
+	// Create new date
+	var currentDate = new Date();
+	
+	// Get current month, day, year values
+	var month = currentDate.getMonth() + 1;
+	var day = currentDate.getDate();
+	var year = currentDate.getFullYear();
+	
+	// Set date formats - add leading zero if month or day has only one digit
+	month = (month < 10) ? "0" = month : month;
+	day = (day < 10) ? "0" + day : day;
+	
+	// return date output
+	var dateString = "Today is " + month + "/" + day + "/" + year;
+	document.writeln(dateString);
+	
+} // end date function
+
+
+
+
+
 	

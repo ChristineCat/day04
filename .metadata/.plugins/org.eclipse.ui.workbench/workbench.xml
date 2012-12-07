@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
-<window height="764" maximized="true" width="1018" x="141" y="67">
+<window height="760" maximized="true" width="1012" x="51" y="161">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -46,9 +46,6 @@
 <view id="org.eclipse.dltk.ui.TypeHierarchy" partName="Type Hierarchy"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="596" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -283,6 +280,27 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="delete_category.php" tooltip="ex_solutions/ch04_ex1/delete_category.php">
+<persistable path="/ex_solutions/ch04_ex1/delete_category.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="add_category.php" tooltip="ex_solutions/ch04_ex1/add_category.php">
+<persistable path="/ex_solutions/ch04_ex1/add_category.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="category_list.php" tooltip="ex_solutions/ch04_ex1/category_list.php">
+<persistable path="/ex_solutions/ch04_ex1/category_list.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="category_list.php" tooltip="ch04_ex1/category_list.php">
+<persistable path="/ch04_ex1/category_list.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="add_product_form.php" tooltip="ch04_ex1/add_product_form.php">
+<persistable path="/ch04_ex1/add_product_form.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="database.php" tooltip="ch04_ex1/database.php">
+<persistable path="/ch04_ex1/database.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="index.php" tooltip="ch04_ex1/index.php">
+<persistable path="/ch04_ex1/index.php"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="invoice_total_v2.html" tooltip="homer/invoice_total_v2.html">
 <persistable path="/homer/invoice_total_v2.html"/>
 </file>
@@ -306,27 +324,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="invoice_total_v3.html" tooltip="homer/invoice_total_v3.html">
 <persistable path="/homer/invoice_total_v3.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="product_discount.html" tooltip="homer/proddisc/product_discount.html">
-<persistable path="/homer/proddisc/product_discount.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="nav.css" tooltip="homer/css/nav.css">
-<persistable path="/homer/css/nav.css"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="main.css" tooltip="homer/css/main.css">
-<persistable path="/homer/css/main.css"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="main.css" tooltip="wk9_hw/css/main.css">
-<persistable path="/wk9_hw/css/main.css"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index_get.html" tooltip="wk9_hw/index_get.html">
-<persistable path="/wk9_hw/index_get.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="display_results.php" tooltip="wk9_hw/display_results.php">
-<persistable path="/wk9_hw/display_results.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="index_get.php" tooltip="ch02_ex2/index_get.php">
-<persistable path="/ch02_ex2/index_get.php"/>
 </file>
 </mruList>
 </workbench>

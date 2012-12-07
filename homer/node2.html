@@ -2,12 +2,12 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Insert title here</title>
+		<title>Dynamic HTML</title>
 		
 		<script>
 			/* Replace image using childnode property */
 			function changeNode() {
-				var dancing = document.getElementById('top');
+				var dancing = document.getElementById('last');
 				dancing.previousSibling.previousSibling.src='images/evilHomer_R.gif';
 			}
 		</script>
@@ -15,7 +15,7 @@
 	</head>
 	
 <body>
-	<span id="top"><img src="images/evilHomer_L.gif"><img src="images/evilHomer_L.gif"><img src="images/evilHomer_L.gif"></span>
+	<span id="top"><img src="images/evilHomer_L.gif"><img src="images/evilHomer_L.gif"><img src="images/evilHomer_L.gif" id="last"></span>
 	<br />
 	<button onclick="changeNode();">Execute</button>
 

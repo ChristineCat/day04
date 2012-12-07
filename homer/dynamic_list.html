@@ -4,52 +4,47 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>Homer’s Online Music Shop</title>
+	<title>Dynamic List Using JavaScript</title>
 	<link rel="shortcut icon" href="images/homer.ico" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/nav.css" />
 	
-	
 	<script>
+	
 		function addShow() {
-		// Get Input from User 
+		// Establish Reference to Element
 		var text = document.getElementById("getInput").value;
+		
+		// Establish place where list will b updated 
+		// Append new show after Much Apu About Nothing 
+		// and before A Streetcar Named Marge
+//		var place = document.getElementById("8F18");
 		
 		// Create new DOM list node 
 		var node = document.createElement("li");
 		
-		// Append new show after Much Apu About Nothing 
-		// and before A Streetcar Named Marge
-		
-//		var place = document.getElementById("8F18");
-//		document.getElementById("theList").insertBefore(node,place);
-		
-		
 		// Add new show text to DOM list node 
 		node.innerHTML = text;
 		
-		function setColors() {
-			// Get Number of rows in array 
-			var rows = 
-				document.getElementById("theList").getElementByTagName("li");
+		// Update DOM subsequently 
+		document.getElementById("theList").appendChild(node);
+		} // end addShow
+		
+		
+		function setColors(color1, color2) {
+			// Get table element rows information 
+			var rows = document.getElementById("theList").getElementsByTagName("li");
 			
-			// Get colors inputs from user in argument 
-			var setColors = [color1.value, color2.value];
+			// Get colors inputs from user in array 
+			var colors = [color1.value, color2.value];
 			
 			// Color odd & even rows 
 			for (var i=0; i<rows.length; i++) {
 				rows[i].style.backgroundColor = colors[i % 2];
-			}
-			
-		}
+			} // end for loop 
+		} // end setColors 
 		
-		// Append new show at end of list 
-		document.getElementById("theList").appendChild(node);	
-		}
 	</script>
-	
-	
-	
 </head>
 
 <body>
@@ -57,7 +52,6 @@
 		<img src="images/Homer_Rock_and_Roll.jpg" alt="Homer" width="100" height="100" />
 		<hgroup>
 			<h1>Homer's Music Store</h1>
-			<h2>Rock On!</h2>
 		</hgroup>
 
 		<nav>
@@ -103,17 +97,11 @@
 					</ul>
 				</li>
 			</ul>
-		</nav>
+		</nav> 
 	</header>
+	
+	<section>
 
-
-	<section id="container">
-		<header id="top">
-			<h1>Everything Is On Sale for Halloween</h1>
-		</header>
-
-<!-- Content Starts Here -->
-		<article>
 			<h2>Matt Groening's favorite Simpson episodes</h2>
 			
 			<ol id="theList">
@@ -131,26 +119,23 @@
 			
 			<fieldset>
 				<legend>List Manager</legend>
-				
 				<form>
 					<label for="getInput">Title: </label>
 					<input type="text" id="getInput" />
-					<input type="button" value="Add" onclick="addShow();"/><br />
-					<input type="reset" value="Reset" />
+					<button type="button" onclick="addShow();">Add</button>
+					<button type="reset">Reset</button>
 				</form>
 			</fieldset>
-<!-- should there be a closing slash after yellow and limeGreen? -->			
+			
 			<fieldset>
 				<legend>Display Manager</legend>
 					<label for="color1">Color #1:</label>
 					<input type="color" id="color1" value="yellow"><br />
 					<label for="color2">Color #2:</label>
 					<input type="color" id="color2" value="limeGreen"><br />
-					<button type="button" onclick="setColors(color1,colo2);">Color</button>
+        			<button onclick="setColors(color1,color2);">Color</button>
 			</fieldset>
 			
-		</article>
-
 <!-- Content Ends Here-->
 	</section>
 
