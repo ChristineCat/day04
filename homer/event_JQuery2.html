@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>event_JQuery2</title>
+	<link rel="stylesheet" href="css/main.css" />
+	<script src="js/jquery_1.8.0.js"></script>
+		<script>
+// Create function binding nested functions to page loading event
+$(document).ready(function() {
+	// Bind Click Event Listener function to element id 
+
+	$('#blue').click(function() {
+
+		// Create Alert 
+		alert("Blue Block was clicked");
+	});	
+		$('#orange').click(function() {
+		alert("Orange Block was Clicked");
+	});
+	$('#green').click(function(event) {
+		event.stopPropagation();
+		alert("Green Block was Clicked");
+	});
+
+});
+	</script>
+	
+	
+	<style>
+		div{
+			padding: 30px;
+		}
+		#orange {
+			width: 300px;
+			background-color: orange;
+		}
+		#green {
+			background-color: limeGreen;
+		}
+		#blue {
+			background-color: cyan;
+		}
+	</style>
+		
+</head>
+
+<body>
+	<div id="orange">
+		<div id="green">
+			<div id="blue">Click here</div>
+		</div>	
+	</div>
+		
+	<footer>
+
+	</footer>
+	
+</body>
+
+</html>

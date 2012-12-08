@@ -11,6 +11,7 @@
 <link rel="shortcut icon" href="images/homer.ico" />
 <link rel="stylesheet" href="css/main.css" />
 <link rel="stylesheet" href="css/nav.css" />
+<script src="js/jquery.1.8.0.js"></script>
 
 
 <!-- CSS Rollover -->
@@ -33,6 +34,28 @@
 
 
 <script>
+
+// Create function binding nested functions to page loading event
+$(document).ready(function(){
+	
+	// Bind Hover Event Listener function to element id
+	$("image3").hover(
+		function(){
+			//Create mouseover
+			$(this).attr({"src":"images/evilHomer_R.gif",
+				"width":"127", "height":"212"});
+		},
+		function() {
+			// Create mouseout 
+			$(this).attr({"src":"images/evitHomer_L.gif",
+				"width":"127", "height":"212"}); 
+		}
+}; // end hover event 
+}); // end page load event 
+</script>
+
+
+
 // Create function to get left image on mouseover 
 function doMouseOver() {
 	var img = document.getElementById('image2');

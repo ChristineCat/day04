@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;/homer/js/jquery-ui-1.9.2.custom.js&apos; to &apos;jquery-ui-1.9.2.js&apos;&#x0A;- Original element: &apos;jquery-ui-1.9.2.custom.js&apos;" description="Rename resource &apos;jquery-ui-1.9.2.custom.js&apos;" flags="7" id="org.eclipse.dltk.ui.rename.resource" input="js/jquery-ui-1.9.2.custom.js" name="jquery-ui-1.9.2.js" stamp="1354977484780" version="1.0"/>
+</session>

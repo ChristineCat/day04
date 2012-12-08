@@ -8,43 +8,37 @@
 	<link rel="shortcut icon" href="images/homer.ico" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/nav.css" />
+	<script src="js/jquery_1.8.0.js"></script>
 	
 	<script>
 	
-		function addShow() {
-		// Establish Reference to Element
-		var text = document.getElementById("getInput").value;
+	//  Create function binding nested functions to page loading ecent
+	$(document),ready(dunction() {
 		
-		// Establish place where list will b updated 
-		// Append new show after Much Apu About Nothing 
-		// and before A Streetcar Named Marge
-//		var place = document.getElementById("8F18");
+		// Bind click function to add show 
+		$('#addShow').click(function() {
 		
-		// Create new DOM list node 
-		var node = document.createElement("li");
+		// get input from user 
+		var newShow = $('#getInput').val();
 		
-		// Add new show text to DOM list node 
-		node.innerHTML = text;
+		// Append new shaow at tne of list 
+		$("#theList").append('<li>'+newShow+</li>');
+		}); // End bind to event listener 
 		
-		// Update DOM subsequently 
-		document.getElementById("theList").appendChild(node);
-		} // end addShow
+		// Bind click function to color list 
+		$('#setColors').click(function() {
 		
+		// Color odd and even rows
+		$('ol > li:nth-child(odd)').css('background-color',
+				$('#color1').val() );
+		$('ol > li:nth-child(even)').css('background-color',
+				$('#color2').val() );
+		}); // end bind to event listener 
 		
-		function setColors(color1, color2) {
-			// Get table element rows information 
-			var rows = document.getElementById("theList").getElementsByTagName("li");
-			
-			// Get colors inputs from user in array 
-			var colors = [color1.value, color2.value];
-			
-			// Color odd & even rows 
-			for (var i=0; i<rows.length; i++) {
-				rows[i].style.backgroundColor = colors[i % 2];
-			} // end for loop 
-		} // end setColors 
-		
+	}); // end bind to page load 
 	</script>
+		
+	
 </head>
 
 <body>
@@ -122,7 +116,7 @@
 				<form>
 					<label for="getInput">Title: </label>
 					<input type="text" id="getInput" />
-					<button type="button" onclick="addShow();">Add</button>
+					<button type="button" value="Add" id="addShow" />
 					<button type="reset">Reset</button>
 				</form>
 			</fieldset>
@@ -133,7 +127,7 @@
 					<input type="color" id="color1" value="yellow"><br />
 					<label for="color2">Color #2:</label>
 					<input type="color" id="color2" value="limeGreen"><br />
-        			<button onclick="setColors(color1,color2);">Color</button>
+        			<button id="setColors">Color</button>
 			</fieldset>
 			
 <!-- Content Ends Here-->

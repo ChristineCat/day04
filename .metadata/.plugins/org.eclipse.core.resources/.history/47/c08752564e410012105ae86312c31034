@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<style>
+
+h3 {
+
+background: #f0f0f0 url(images/open.png) no-repeat 0px 11px;
+
+cursor: pointer;
+
+border: 1px solid #aaaaaa;
+
+margin: 0px;
+
+padding: .5em .5em .5em 1em;
+
+border-radius: 5px;
+
+}
+
+h3:hover {
+
+background-color: #D8D8D8;
+
+}
+
+h3.close {
+
+background: #ffffff url(images/close.png) no-repeat 0px 11px;
+
+border-radius: 5px 5px 0px 0px ;
+
+padding: .5em .5em .5em 1em;
+
+}
+
+.answer {
+
+margin: 0;
+
+border: 1px solid #aaaaaa;
+
+border-radius: 0px 0px 5px 5px ;
+
+padding: 1em;
+
+overflow: auto;
+
+}
+
+</style>
+
+<script src="js/jquery-1.8.0.js"></script>
+<script>
+// Create function binding nested functions to page loading evnet
+$(document).ready(function() {
+	// Add Hide Effect to Answers 
+	 $('.answer').hide()'\;'
+	
+	// Bind Toggle Event Listener function 
+	$('.start h3').toggle (
+	// Open Answer 
+	function() {
+		$(this).next('.answer').slideDown();
+	},
+	// Close Answer 
+	function() {
+		$(this).next('.answer').fadeOut();
+	}
+	); // end toggle event 
+
+});  // end page load 
+
+</script>
+
+
+
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<!-- Content Starts Here -->
+
+
+
+<h2>FAQs with JQuery</h2>
+
+<article class="content">
+
+<div class="start">
+
+<h3>Lorem gravida mi ultrices wisi adipiscing justo lacus eget deserunt?</h3>
+
+<div class="answer">
+
+<p>Lorem ipsum dolor sit amet bibendum. Eros ante scelerisque. Fermentum nam quisque mauris non 
+
+quis!</p>
+
+</div>
+
+<h3>Ut vivamus sociis sapien vivamus at sagittis orci eget lacus?</h3>
+
+<div class="answer">
+
+<p>Lorem ipsum dolor sit amet vitae. Risus congue non. Quam dolor et. Ridiculus est a. Sit arcu adipiscing velit sed magna eget non tellus mauris.</p>
+
+</div>
+
+<h3>Turpis vel aliquet gravida turpis in nunc libero sagittis maecenas tincidunt dolor?</h3>
+
+<div class="answer">
+
+<p>Lorem ipsum dolor. Sit amet ultricies. Dis ligula risus eget tortor ante. Purus at pharetra et lobortis suspendisse. Tempor quisque porta ornare in nibh vitae aperiam sed nunc vitae cursus.</p>
+
+</div>
+
+</article>
+
+<!-- Content Ends Here -->
+</body>
+</html>
