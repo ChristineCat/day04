@@ -101,7 +101,7 @@
 			<input type="number" id="list_price" /><br />
 			
 			<label>Customer Type:</label>
-			<select name=”type" id="type">
+			<select type="text" name=”type" id="type">
 				<option value="R">Retail</option>
 				<option value="C">Commercial</option>	
 			</select><br />
@@ -125,14 +125,15 @@
 	<output id="discount" for="list_price discount_percent">
 	</output><br />
 	<label>Discount Price:</label>
-	<output id="discountPrice" for="list_price discount">
+		<output id="discount_price" for="list_price discount"></output>
+		<output id="discountPrice" for="list_price discount">
 	</output><br />
 </div>
 
 <!-- today's date -->
 <br />
 <script>getToday (); </script>
-<noscript>You must enable HavaScript for this application.</noscript>
+<noscript>You must enable JavaScript for this application.</noscript>
 
 		</form>
 	</section>

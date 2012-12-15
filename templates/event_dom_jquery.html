@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<title>Event Handling DOM Level 2</title>
+
+	<style>
+		div {
+			padding: 30px;
+		}
+
+		#orange {
+			width: 300px;
+			background-color: orange;
+	   }
+
+		#green {
+			background-color: limeGreen;
+		}
+
+		#blue {
+			background-color: cyan;
+		}
+	</style>
+
+	<script src="js/jquery-1.8.0.js"></script>
+
+	<script>
+		$(document).ready(function() {
+			$('#orange').click(function() {
+				alert("Orange Block was clicked");
+			});
+
+			$('#green').click(function() {
+				alert("Green Block was clicked");
+			});
+
+			$('#blue').click(function() {
+				alert("Blue Block was clicked");
+			});
+		});
+	</script>
+</head>
+
+
+<body>
+
+   <div id="orange" >
+       <div id="green" >
+	       <div id="blue" >Click here</div>
+		</div>
+	</div>
+	
+</body>
+</html>

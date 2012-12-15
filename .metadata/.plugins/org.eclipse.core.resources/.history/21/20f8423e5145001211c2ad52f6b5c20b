@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Slideshow</title>
+<script src="js/jquery-1.8.0.js"></script>
+<script>
+// Create function binding nested functions to page loading event
+$(document).ready(function() {
+	
+	// Hide all images except first
+	$('.slideshow img:gt(0)').hide();
+	
+	// Set timer and use fade effects to replace images 
+	setInterval(function() {
+		$('.slideShow:first-Child').fadeOut().next('img').fadeIn().end().appendTo('.slideShow');
+	}, 3000 );
+}); // end bind to page load 
+</script>
+<style>
+.slideShow {
+	position: relative;
+	width: 407px;
+	height: 500pc;
+}
+.slideShow img {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+}</style>
+
+
+</head>
+
+
+<body>
+<!-- Content Starts Here -->            
+
+<h2>Behind the Music Slide Show with jQuery</h2>
+
+    
+
+<div class="slideShow">
+
+<img src="images/abbey_road.jpg" alt="The Beatles" width="407" height="500" />
+
+<img src="images/born_in_the_usa.jpg" alt="Bruce Springsteen" width="407" height="500" />
+
+<img src="images/nevermind.jpg" alt="Nirvana" width="407" height="500" />
+
+</div>
+
+<!-- Content Ends Here -->
+</body>
+</html>

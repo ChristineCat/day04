@@ -1,5 +1,5 @@
 <?php
-$dsn = 'mysql:host=localhost;dbname=my_guitar_shop2';
+$dsn = 'mysql:host=localhost;dbname=my_guitar_shop2_ccatania';
 $username = 'mgs_user';
 $password = 'pa55word';
 $options = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);

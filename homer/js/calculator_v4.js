@@ -7,35 +7,34 @@ function calculate() {
 	
 // get input from user
 
-var listPrice = 
-	$('list_price').valueAsNumber;
+	var listPrice = 
+		$('list_price').valueAsNumber;
 
-var customerType =
-	$('type').value;
+	var customerType =
+		$('type').value;
 
 // call calculate discount percent function
 
-var discountPercent = discPercCalc(listPrice, customerType);
+	var discountPercent = discPercCalc(listPrice, customerType);
 
 // call calculate discount amount function
 
-var discount = discAmountCalc(listPrice, discountPercent);
+	var discount = discAmountCalc(listPrice, discountPercent);
 
 
 // call calculate discount price function
 
-var discountPrice = discPriceCalc(listPrice, discount);
-
+	var discountPrice = discPriceCalc(listPrice, discount);
 
 // set output in currency format (sort of)
 
-$('discount_percent').valueAsNumber = discountPercent;
+	$('discount_percent').valueAsNumber = discountPercent;
 
-discount = '$'+discount.toFixed(2);
-$('discount').value = discount;
+	discount = '$'+discount.toFixed(2);
+	$('discount').value = discount;
 
-discountPrice = '$'+discountPrice.toFixed(2);
-$('discount_price discount').value = discountPrice;
+	discountPrice = '$'+discountPrice.toFixed(2);
+	$('discount_price discount').value = discountPrice;
 
 } // end calculate
 
@@ -96,9 +95,4 @@ function getToday () {
 	document.writeln(dateString);
 	
 } // end date function
-
-
-
-
-
 	

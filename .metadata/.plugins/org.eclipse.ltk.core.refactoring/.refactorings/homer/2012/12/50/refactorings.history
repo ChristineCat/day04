@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;/homer/accordian_jquery_ui_version.html&apos; to &apos;accordion_jquery_ui_version.html&apos;&#x0A;- Original element: &apos;accordian_jquery_ui_version.html&apos;" description="Rename resource &apos;accordian_jquery_ui_version.html&apos;" flags="7" id="org.eclipse.dltk.ui.rename.resource" input="accordian_jquery_ui_version.html" name="accordion_jquery_ui_version.html" stamp="1355580185882" version="1.0"/>
+</session>
