@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+
+
+	<style>
+		section {
+		height: 500px;         /* Compensate for cube */
+		}
+
+		#cube {
+			position: relative;
+			left: 75px;
+			top: 50px;
+		}
+
+		#spinner div {
+			position: absolute;
+			width: 360px;
+			height: 360px;
+			border: 1px solid gray;
+		}
+...
+	</style>
+
+
+
+</head>
+
+<body>
+<!-- Content Starts Here -->
+<div id="stage">
+<div id="spinner">
+<div id="face1"></div>
+<div id="face2"></div>
+<div id="face3"></div>
+<div id="face4"></div>
+<div id="face5"></div>
+<div id="face6"></div>
+</div> 
+</div>
+<!-- Content Ends Here -->  
+
+
+
+
+
+</body>
+</html>
