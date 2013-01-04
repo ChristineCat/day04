@@ -1,7 +1,7 @@
 <?php include 'view/header.php'; ?>
 <?php include 'view/sidebar.php'; ?>
 <div id="content">
-    <p><br />My Guitar Shop has a great selection of
+    <p><br />The Strings and Things Guitar Shop has a great selection of
         musical instruments including guitars, basses, and drums. And we're
         constantly adding more to give you the best selection possible!
     </p>

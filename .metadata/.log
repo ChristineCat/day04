@@ -11209,3 +11209,9 @@ Binding(CTRL+SHIFT+I,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2013-01-04 12:18:57.581
+!MESSAGE Invalid preference page path: HTML Syntax
+
+!ENTRY org.eclipse.ui 4 4 2013-01-04 12:18:57.617
+!MESSAGE Invalid preference page path: XML Syntax
