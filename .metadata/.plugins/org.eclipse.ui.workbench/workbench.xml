@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="19" version="2.0">
+<workbench progressCount="20" version="2.0">
 <workbenchAdvisor/>
 <window height="760" maximized="true" width="1012" x="51" y="161">
 <fastViewData fastViewLocation="1024"/>
@@ -280,6 +280,27 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="exercise01.html" tooltip="jQueryMobile_exercises/exercise01.html">
+<persistable path="/jQueryMobile_exercises/exercise01.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="canvas3.html" tooltip="templates/canvas3.html">
+<persistable path="/templates/canvas3.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="svg_line.html" tooltip="templates/svg_line.html">
+<persistable path="/templates/svg_line.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="canvasX.html" tooltip="templates/canvasX.html">
+<persistable path="/templates/canvasX.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="NewFile3.html" tooltip="templates/NewFile3.html">
+<persistable path="/templates/NewFile3.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="NewFile2.html" tooltip="templates/NewFile2.html">
+<persistable path="/templates/NewFile2.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="NewFile.html" tooltip="templates/NewFile.html">
+<persistable path="/templates/NewFile.html"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="delete_category.php" tooltip="ex_solutions/ch04_ex1/delete_category.php">
 <persistable path="/ex_solutions/ch04_ex1/delete_category.php"/>
 </file>
@@ -303,27 +324,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="invoice_total_v2.html" tooltip="homer/invoice_total_v2.html">
 <persistable path="/homer/invoice_total_v2.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="invoice_total.html" tooltip="homer/invoice_total.html">
-<persistable path="/homer/invoice_total.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="calculator_v2.js" tooltip="homer/js/calculator_v2.js">
-<persistable path="/homer/js/calculator_v2.js"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="calculator.js" tooltip="homer/js/calculator.js">
-<persistable path="/homer/js/calculator.js"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="invoice_total_v4.html" tooltip="homer/invoice_total_v4.html">
-<persistable path="/homer/invoice_total_v4.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="calculator_v4.js" tooltip="homer/js/calculator_v4.js">
-<persistable path="/homer/js/calculator_v4.js"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="calculator_v3.js" tooltip="homer/js/calculator_v3.js">
-<persistable path="/homer/js/calculator_v3.js"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="invoice_total_v3.html" tooltip="homer/invoice_total_v3.html">
-<persistable path="/homer/invoice_total_v3.html"/>
 </file>
 </mruList>
 </workbench>

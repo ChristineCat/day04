@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Canvas Files</title>
+	
+	<style>
+		canvas {
+			border: 1px solid black;
+		}	
+	</style>
+	
+	<script>
+// Access rendering context
+		function init() {
+	
+// Get Context
+			var ctx = document.getElemntById('canvas').getContext('2d');
+				
+				
+								
+				
+				
+				ctx.beginPath();
+			
+			// Draw a squiggly line 
+			
+			ctx.moveTo(100,20);
+			ctx.lineTo(200,160);
+			ctx.quadraticCurveTo(230, 200 250, 120);
+			ctx.bezierCurveTo(290, -40, 300,200, 400, 150);
+			ctx.lineTo(500, 90);
+			ctx.strokeStyle = 'rgb(0,0,0)';
+			ctx.lineWidth = 5;ctx.stroke();
+			
+
+			
+}
+
+	</script>
+</head>
+<body>
+	<canvas id="canvas" width="600" height="450"></canvas>
+	<br />
+	<button type='button' onclick='init();'>Draw</button>
+
+</body>
+</html>

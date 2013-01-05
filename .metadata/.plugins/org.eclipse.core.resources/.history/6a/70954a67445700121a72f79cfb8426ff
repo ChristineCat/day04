@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+<head>
+
+   <meta charset="utf-8" />
+
+   <title>CSS3 Animation | Animation</title>
+
+
+
+<style>
+
+/* Initial state */
+
+#box1 {
+
+   width: 100px;
+
+   height: 200px;
+
+   color: black;
+
+   border: 5px solid blue;
+
+   background-color: orange;
+
+}
+
+/* Create Multistate Animation */
+@-webkit-keyframes movie {
+	25% {
+		width:150px;
+		height: 150px;
+		background-color: green;
+		color: white;
+		border: 5px solid yellow;
+	}
+	
+	50% {
+		width:200px;
+		height: 100px;
+		background-color: blue;
+		color: white;
+		border: 5px solid orange;		
+	}
+}
+
+
+
+
+</style>
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+<div id="box1">
+
+  <p>Lorem ipsum dolor sit amet</p>
+
+</div>
+
+</body>
+
+</html>

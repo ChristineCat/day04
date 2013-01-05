@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Canvas Files</title>
+	
+	<style>
+		canvas {
+			border: 1px solid black;
+		}	
+	</style>
+	
+	<script>
+// Access rendering context
+		function init() {
+	
+// Get Context
+			var ctx = document.getElemntById('canvas').getContext('2d'):
+
+// Define gradient filled rectangle				
+				
+				//* Draw Shape *//
+				//* Draw a filled Rectangle /*
+				
+								
+				
+				
+				ctx.beginPath();
+			
+			// Draw a filled triangle
+			
+			ctx.moveTo(200,200);
+			ctx.lineTo(300,400);
+			ctx.lineTo(100,400);
+				ctx.fillStyle - "rgb(0,0, 255)";
+			ctx.fill();
+			// Ends the drawing
+			ctx.closePath();
+			ctx.fillStyle = "rgb(225, 0 0)";
+			
+
+			
+}
+
+	</script>
+</head>
+<body>
+	<canvas id="canvas" width="600" height="450"></canvas>
+	<br />
+	<button type='button' onclick='init();'>Draw</button>
+
+</body>
+</html>

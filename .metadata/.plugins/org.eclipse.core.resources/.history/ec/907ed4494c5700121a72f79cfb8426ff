@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Canvas Files</title>
+</head>
+<body>
+	<canvas id="canvas" width="600" height="450"></canvas>
+	<br />
+	<button type='button' onclick='init();'>Draw</button>
+
+</body>
+</html>

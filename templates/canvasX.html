@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Canvas Files</title>
+	
+	<style>
+		canvas {
+			border: 1px solid black;
+		}	
+	</style>
+	
+	<script>
+// Access rendering context
+		function init() {
+	
+// Get Context
+			var ctx = document.getElemntById('canvas').getContext('2d'):
+//* Draw Shape *//
+
+				// Starts the drawing
+				ctx.beginPath();
+			//Defines rectangle dimensions
+			ctx.rect(10,20,250,175);
+			// Ends the drawing
+			ctx.closePath();
+			// Set Area color
+			ctx.fillStyle = "rgb(225, 0, 0)";
+			// Draw shaoe and spape area 
+			ctx.fill();
+			
+}
+
+	</script>
+</head>
+<body>
+	<canvas id="canvas" width="600" height="450"></canvas>
+	<br />
+	<button type='button' onclick='init();'>Draw</button>
+
+</body>
+</html>
