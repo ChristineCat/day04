@@ -20,17 +20,17 @@
             
             <nav>
             	<ul id="menu">
-            		<li><a class="MenuTop" href="../index.php">Home</a>
-            		<li><a class="MenuTop" href="../catalog/index.php">Products</a>
-            		<li><a class="MenuTop" href="../store.php">Our Retail Store</a>
-            		<li><a class="MenuTop" href="../info.html">Information</a>
+            		<li><a class="MenuTop" href="<?php echo $app_path ?>home_view.php">Home</a>
+            		<li><a class="MenuTop" href="<?php echo $app_path ?>catalog/index.php">Products</a>
+            		<li><a class="MenuTop" href="<?php echo $app_path ?>store.php">Our Retail Store</a>
+            		<li><a class="MenuTop" href="<?php echo $app_path ?>info.html">Information</a>
             			<ul>
-            				<li><a class="MenuRight" href="../contact.php">Contact Us</a>
-            				<li><a class="MenuRight" href="../newsletter.php">Newsletter</a>
+            				<li><a class="MenuRight" href="<?php echo $app_path ?>contact.php">Contact Us</a>
+            				<li><a class="MenuRight" href="<?php echo $app_path ?>newsletter.php">Newsletter</a>
             					<ul>
-            						<li><a class="MenuRight" href="../signup.php">Join Our Mailing List</a>
+            						<li><a class="MenuRight" href="<?php echo $app_path ?>signup.php">Join Our Mailing List</a>
             					</ul>
-            				<li><a class="MenuRight" href="../videos.php">Videos</a>
+            				<li><a class="MenuRight" href="<?php echo $app_path ?>videos.php">Videos</a>
             			</ul>            	
             	</ul>
             </nav>            

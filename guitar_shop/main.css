@@ -4,24 +4,24 @@
 
 @font-face {
     font-family: 'ItaliannoRegular';
-    src: url('../webfonts/Italianno-Regular-OTF-webfont.eot');
-    src: url('../webfonts/Italianno-Regular-OTF-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../webfonts/Italianno-Regular-OTF-webfont.woff') format('woff'),
-         url('../webfonts/Italianno-Regular-OTF-webfont.ttf') format('truetype'),
-         url('../webfonts/Italianno-Regular-OTF-webfont.svg#ItaliannoRegular') format('svg');
+    src: url('webfonts/Italianno-Regular-OTF-webfont.eot');
+    src: url('webfonts/Italianno-Regular-OTF-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Italianno-Regular-OTF-webfont.woff') format('woff'),
+         url('webfonts/Italianno-Regular-OTF-webfont.ttf') format('truetype'),
+         url('webfonts/Italianno-Regular-OTF-webfont.svg#ItaliannoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /* End of Font Squirrel css */
 
-}
+
 
 body {
     margin-top: 0;
     background-color: rgb(255,255,204);
     font-family: Arial, Helvetica, sans-serif;
+}
 
 h1 {
     font-size: 150%;
@@ -29,12 +29,14 @@ h1 {
     padding: .5em 0 .25em;
     font-family: "Times New Roman", Times, serif;
 }
+
 h2 {
     font-size: 120%;
     margin: 0;
     padding: .5em 0 .25em;
     font-family: "Times New Roman", Times, serif;
 }
+
 h1, h2 {
     color: rgb(205, 163, 94);
 }
@@ -103,14 +105,16 @@ br {
     padding: .5em 2em;
     background-image: url(../images/background.jpg);
 }
+
 #header h1 {
 	font-size: 250%;
 	color: #FFFF99;
 	font-family: "Italianno-Regular", "Brush Script MT", cursive, serif;
     margin: 0;
     padding: .5em 0;
-    color: black;
+    color: #FFFF99;
 }
+
 #header h2 {
 	font-size: 125%;
 	color: #FFFF99;
@@ -123,7 +127,7 @@ br {
 }
 
 #header {
-	width: 100%;
+	width: 697px;
 }
 
 #header nav {
@@ -131,8 +135,8 @@ br {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	border-top: .1em solid #FFFF99;
-	border-bottom: .1em solid #FFFF99;
+	border-top: .15em solid #FFFF99;
+	border-bottom: .15em solid #FFFF99;
 	border-width: 100%;
 	text-align: center;
 	background-image: url(../images/background.jpg);
@@ -140,15 +144,14 @@ br {
 
 #header nav #menu li {
 	display: inline-block;
-	padding: .25em 0;
+	padding: .4em 0 -0.2em 0;
 	margin: 0;
 	position: relative;
 	vertical-align: middle;
 }
 
 #header nav #menu li a {
-	margin: 0.5em 0.7em;
-	font-size: 75%;
+	margin: 0.5em 0.5em;
 	color: #FFFF99;
 	text-decoration: none;
 	font-style: normal;
@@ -164,7 +167,7 @@ br {
 
 #header nav li> ul {
 	position: absolute;
-	padding: .25em 0;
+	padding: .25em 0 0 0;
 	left: -99999em;
 	text-align: left;
 	background-image: url(../images/background.jpg);
@@ -175,9 +178,9 @@ br {
 	padding: 0;
 	margin: 0;
 	z-index: 0;
-	left: 6em;
+	left: 12em;
 	top: inherit;
-	top: -1.25em;
+	top: -1.75em;
 	text-align: left;
 	background-image: url(../images/background.jpg);
 }
@@ -186,7 +189,7 @@ br {
 	position: absolute;
 	padding: 0;
 	left: -99999px;
-	top: -1em;
+	top: -2em;
 	text-align: left;
 	background-image: url(../images/background.jpg);
 }
@@ -206,9 +209,9 @@ br {
 	text-decoration: none;
 	color: #FFFF99;
 	font-weight: normal;
-	padding: 0 .2em .2em .5em;
+	padding: 0 .2em 0 .7em;
 	margin: 0;
-	width: 8em;
+	width: 12em;
 	display: block;
 	background-image: url(../images/background.jpg);
 }
