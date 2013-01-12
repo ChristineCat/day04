@@ -43,10 +43,12 @@
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
-<view id="org.eclipse.dltk.ui.TypeHierarchy" partName="Type Hierarchy"/>
+<view id="org.eclipse.dltk.ui.TypeHierarchy" partName="Type Hierarchy">
+<viewState isWindowWorkingSet="false" mv_vertical_scroll="0" org.eclipse.dltk.ui.packages.linktypehierarchytoeditor="0" orientation="3" ratio="350" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName=""/>
+</view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="596" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="617" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -234,7 +236,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.2194976" ratioLeft="367" ratioRight="1305" relationship="2" relative="topLeft"/>
+<info part="org.eclipse.ui.editorss" ratio="0.20730977" ratioLeft="346" ratioRight="1323" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottom" ratio="0.7490683" ratioLeft="603" ratioRight="202" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -280,50 +282,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="exercise01.html" tooltip="jQueryMobile_exercises/exercise01.html">
-<persistable path="/jQueryMobile_exercises/exercise01.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" tooltip="jqm_guitar_shop/index.html">
+<persistable path="/jqm_guitar_shop/index.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="canvas3.html" tooltip="templates/canvas3.html">
-<persistable path="/templates/canvas3.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="jqm_template_1.2_revised.html" tooltip="jqm_guitar_shop/jqm_template_1.2_revised.html">
+<persistable path="/jqm_guitar_shop/jqm_template_1.2_revised.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="svg_line.html" tooltip="templates/svg_line.html">
-<persistable path="/templates/svg_line.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="jqm template 1.2.html" tooltip="jqm_guitar_shop/jqm template 1.2.html">
+<persistable path="/jqm_guitar_shop/jqm template 1.2.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="jqm template 1.2 revised.html" tooltip="jqm_guitar_shop/jqm template 1.2 revised.html">
+<persistable path="/jqm_guitar_shop/jqm template 1.2 revised.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="jqm template 1.0.html" tooltip="jqm_guitar_shop/jqm template 1.0.html">
+<persistable path="/jqm_guitar_shop/jqm template 1.0.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="jqm template 1.0 revised.html" tooltip="jqm_guitar_shop/jqm template 1.0 revised.html">
+<persistable path="/jqm_guitar_shop/jqm template 1.0 revised.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="video.html" tooltip="homer/video.html">
+<persistable path="/homer/video.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="svg.html" tooltip="templates/svg.html">
+<persistable path="/templates/svg.html"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="canvasX.html" tooltip="templates/canvasX.html">
 <persistable path="/templates/canvasX.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="NewFile3.html" tooltip="templates/NewFile3.html">
-<persistable path="/templates/NewFile3.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="canvas6.html" tooltip="templates/canvas6.html">
+<persistable path="/templates/canvas6.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="NewFile2.html" tooltip="templates/NewFile2.html">
-<persistable path="/templates/NewFile2.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="header.php" tooltip="guitar_shop/view/header.php">
+<persistable path="/guitar_shop/view/header.php"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="NewFile.html" tooltip="templates/NewFile.html">
-<persistable path="/templates/NewFile.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="products.html" tooltip="jqm_guitar_shop/products.html">
+<persistable path="/jqm_guitar_shop/products.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="delete_category.php" tooltip="ex_solutions/ch04_ex1/delete_category.php">
-<persistable path="/ex_solutions/ch04_ex1/delete_category.php"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="exercise01.html" tooltip="jQueryMobile_exercises/exercise01.html">
+<persistable path="/jQueryMobile_exercises/exercise01.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="add_category.php" tooltip="ex_solutions/ch04_ex1/add_category.php">
-<persistable path="/ex_solutions/ch04_ex1/add_category.php"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="home_view.php" tooltip="guitar_shop/home_view.php">
+<persistable path="/guitar_shop/home_view.php"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="category_list.php" tooltip="ex_solutions/ch04_ex1/category_list.php">
-<persistable path="/ex_solutions/ch04_ex1/category_list.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="category_list.php" tooltip="ch04_ex1/category_list.php">
-<persistable path="/ch04_ex1/category_list.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="add_product_form.php" tooltip="ch04_ex1/add_product_form.php">
-<persistable path="/ch04_ex1/add_product_form.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="database.php" tooltip="ch04_ex1/database.php">
-<persistable path="/ch04_ex1/database.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="index.php" tooltip="ch04_ex1/index.php">
-<persistable path="/ch04_ex1/index.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="invoice_total_v2.html" tooltip="homer/invoice_total_v2.html">
-<persistable path="/homer/invoice_total_v2.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="footer.php" tooltip="guitar_shop/view/footer.php">
+<persistable path="/guitar_shop/view/footer.php"/>
 </file>
 </mruList>
 </workbench>

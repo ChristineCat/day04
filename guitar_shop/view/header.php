@@ -15,6 +15,22 @@
     <body>
     <div id="page">
         <div id="header">
+        <style>
+        	@font-face {
+    			font-family: 'ItaliannoRegular';
+    			src: url('webfonts/Italianno-Regular-OTF-webfont.eot');
+   				src: url('webfonts/Italianno-Regular-OTF-webfont.eot?#iefix') format('embedded-opentype'),
+         		url('webfonts/Italianno-Regular-OTF-webfont.woff') format('woff'),
+         		url('webfonts/Italianno-Regular-OTF-webfont.ttf') format('truetype'),
+         		url('webfonts/Italianno-Regular-OTF-webfont.svg#ItaliannoRegular') format('svg');
+    			font-weight: normal;
+    			font-style: normal;
+			}
+			nav h1 {
+				font-family: "Italianno-Regular", "Brush Script MT", cursive, serif;
+			}
+        </style>
+        
             <h1>Strings and Things Guitar Shop</h1>
             <h2>We've Got the Right Guitar for You!</h2>
             

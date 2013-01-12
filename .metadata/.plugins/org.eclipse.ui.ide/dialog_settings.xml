@@ -5,15 +5,15 @@
 		<item value="531" key="DIALOG_X_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
-		<item value="true" key="ShowStatusLine"/>
 		<item value="false" key="ShowDerived"/>
+		<item value="true" key="ShowStatusLine"/>
 		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
 		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode/&gt;&#x0A;&lt;/History&gt;" key="History"/>
 		<section name="DialogBoundsSettings">
 			<item value="606" key="DIALOG_WIDTH"/>
 			<item value="128" key="DIALOG_Y_ORIGIN"/>
-			<item value="502" key="DIALOG_HEIGHT"/>
 			<item value="540" key="DIALOG_X_ORIGIN"/>
+			<item value="502" key="DIALOG_HEIGHT"/>
 			<item value="1|Sans|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		</section>
 	</section>
@@ -24,10 +24,10 @@
 		</list>
 	</section>
 	<section name="SaveAsDialogSettings">
-		<item value="637" key="DIALOG_WIDTH"/>
-		<item value="50" key="DIALOG_Y_ORIGIN"/>
-		<item value="627" key="DIALOG_X_ORIGIN"/>
-		<item value="601" key="DIALOG_HEIGHT"/>
+		<item value="643" key="DIALOG_WIDTH"/>
+		<item value="34" key="DIALOG_Y_ORIGIN"/>
+		<item value="603" key="DIALOG_HEIGHT"/>
+		<item value="942" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Sans|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="NewWizardAction">

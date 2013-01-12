@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Homer at Ninja Dodgeball Fest I in Canvas</title>
+	
+	<style>
+			
+		canvas	{
+			border: 1px solid black;
+			background: url('images/ninja_dodgeball.jpg') center top 
+   		    no-repeat;
+}
+		
+	</style>
+	
+	<script>
+	
+// Declare Variables 
+
+	var ctx;
+	var canvasWidth = 600;
+	var canvasHeight = 450; 
+	var circle_x = 300;
+	var circle_y = 225;
+	var speed_dx = 2;
+	var speed_dy = 4;
+
+//Access rendering context
+function init() {
+  	ctx = document.getElementById("canvas").getContext("2d");
+  	setInterval(draw, 10);
+}// end initiate function
+		
+
+// Execute Drawing Function 
+
+function draw() {
+
+	//clear canvas
+	ctx.clearRect(0, 0, canvasWidth, canvasHeight);
+
+	//draw image
+	// declare variable for image function
+	var img = new Image(); 
+	// specify path of the image	
+	img.src = 'images/homer_dodgeball1.png'; 
+	// draw image at specified location
+	ctx.drawImage(img,172,197);
+	
+	
+
+	// Clear Canvas 
+	// Draw Image 
+	// Draw Shape 
+	ctx.beginPath();
+	
+	// create a circle with a radius of 20 pixels
+	ctx.arc(circle_x, circle_y, 20, 0, Math.PI*2, true);
+  
+	ctx.fillStyle = "rgb(255,0,0)"
+	ctx.fill();	
+
+	// Move Shape 
+	// move shape
+	if (circle_x + speed_dx > canvasWidth || circle_x + speed_dx < 0)
+	    speed_dx = -speed_dx;
+
+	if (circle_y + speed_dy > canvasHeight || circle_y + speed_dy < 0)
+	    	speed_dy = -speed_dy;
+
+	 		circle_x += speed_dx;
+	  		circle_y += speed_dy;
+	}// end drawing function
+
+	// add onload event handler
+	window.onload = function() {
+		init();
+	}	
+
+// Add OnLoad Event Handler			
+
+
+	</script>
+</head>
+<body>
+	
+	
+	<!-- Content Starts Here -->
+	
+	<h2>Homer at Ninja Dodgeball Fest I in Canvas</h2>
+	
+	<canvas id="canvas" width="600" height="450"></canvas>
+	<br />
+	<button type='button' onclick='init();'>Draw</button>
+	<!-- Content Ends Here -->
+
+</body>
+</html>
